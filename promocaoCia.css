@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+    
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+  overflow-y: visible;
+}
+
+.formulario {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    margin-top: 6rem;
+    padding: 15px 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+      background-color: #F3E9DC;
+  box-shadow: 0 1px 4px #5D2510;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+label{
+    width: 95%;
+}
+input{
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 2px #C08552;
+    background-color:  #F3E9DC;
+    color: #412F26;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+        background-color:  #F3E9DC;
+    box-shadow: 0 1px 4px #C08552;
+}
+
+.alinhar-selecao{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+button {
+    padding: 12px 15px;
+            border-radius: 8px;
+            border: none;
+            background-color: #412F26;
+            color: #F3E9DC;
+}
+
+
+
+#forma-pagamento {
+    background-color: #F3E9DC;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #412F26;
+    font-weight: bold;
+        outline: none;
+    border: none;
+    box-shadow: 0 1px 4px #C08552;
+    
+    
+}
+#forma-pagamento:focus {
+    outline: none;
+    border: 2px solid #C08552;
+}
